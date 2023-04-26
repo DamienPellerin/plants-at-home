@@ -1,0 +1,27 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+cursor: pointer;
+width: 200px;
+margin: 20px;
+}
+
+.title{
+display: flex;
+justify-content: center;
+position: absolute;
+margin-top: -40px;
+height: 30px;
+width: 200px;
+padding-top: 8px;
+background-color: rgba(246, 241, 241, 0.673);
+border-radius: 0 0 10px 10px;
+}
+
+.img{
+width: 200px;
+height: 300px;
+border-radius: 10px;
+}

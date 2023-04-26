@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 200px;
+  
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-radius: 50%;
+   margin: 30px;
+}
