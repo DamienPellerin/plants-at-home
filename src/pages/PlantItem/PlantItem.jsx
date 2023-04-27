@@ -15,22 +15,30 @@ export function PlantItem(props) {
 
     plantItem();
   }, [id]);
-  console.log("bon", plant);
+
   return (
     <div className={s.container}>
       {plant ? (
-        <p>Espéce : {plant.data.common_name}</p>
+        <p className={s.species}>Espéce : {plant.data.common_name}</p>
       ) : (
         <p>Plant not found</p>
       )}
       {plant ? (
-        <p>Famille : {plant.data.family.name}</p>
+        <p className={s.family}>Famille : {plant.data.family.name}</p>
       ) : (
         <p>Plant not found</p>
       )}
-      {plant ? <p>Genre : {plant.data.genus.name}</p> : <p>Plant not found</p>}
+      {plant ? (
+        <p className={s.genus}>Genre : {plant.data.genus.name}</p>
+      ) : (
+        <p>Plant not found</p>
+      )}
 
-      {plant ? <img src={plant.data.image_url} /> : <p>Plant not found</p>}
+      {plant ? (
+        <img src={plant.data.image_url} className={s.img} />
+      ) : (
+        <p>Plant not found</p>
+      )}
       {plant ? (
         <p>Observations : {plant.data.main_species.observations}</p>
       ) : (

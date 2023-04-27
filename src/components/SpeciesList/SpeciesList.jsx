@@ -15,7 +15,6 @@ export function SpeciesList({ species }) {
               onClick={() => navigate("/plante/" + specie.id)}
             />
             <div className={s.title}>{specie.common_name}</div>
-            <div>{specie.id}</div>
           </div>
         );
       })}

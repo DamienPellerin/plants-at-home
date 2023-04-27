@@ -11,7 +11,7 @@
 
 .list li{
     display: flex;  
-    justify-content: center;
+    justify-content: right;
     margin: 0;
     padding: 10px;
     cursor: pointer;

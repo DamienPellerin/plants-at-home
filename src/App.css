@@ -1,5 +1,7 @@
 .App {
-
+    height: 100vh;
+    background-image: url('');
+    background-color: #E0D9CE;
 }
 
 
