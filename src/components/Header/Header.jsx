@@ -1,32 +1,12 @@
-import header from "./header.module.css";
+import { Navbar } from "../Navbar/Navbar";
+import s from "./style.module.css";
 
-import Navbar from "../Navbar/Navbar";
-import { PlantsAPI } from "../../api/plants";
-import { useEffect, useState } from "react";
-import { SpeciesList } from "components/SpeciesList/SpeciesList";
-
-export default function Header() {
-  const [species, setSpecies] = useState([]);
-
-  async function fetchSpecies() {
-    const species = await PlantsAPI.fetchSpecies();
-    setSpecies(species.data);
-    console.log("toto", species);
-  }
-  useEffect(() => {
-    fetchSpecies();
-  }, []);
-
-  console.log("especes", species);
+export function Header() {
   return (
     <>
-      <div className={header.container}>
+      <div className={s.container}>
         <Navbar />
       </div>
-      <div>
-        <SpeciesList species={species} />
-      </div>
-      <div></div>
     </>
   );
 }

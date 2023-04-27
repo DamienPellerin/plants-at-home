@@ -3,7 +3,7 @@ import navbar from "./navbar.module.css";
 import Logo from "../Logo/Logo";
 import logo from "/Users/damien/Desktop/plants-at-home/src/assets/img/logo.jpeg";
 import Menu from "../Menu/Menu";
-export default function Navbar() {
+export function Navbar() {
   return (
     <div className={navbar.container}>
       <div className={navbar.logo}>

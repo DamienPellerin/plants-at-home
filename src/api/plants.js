@@ -11,4 +11,12 @@ export class PlantsAPI {
   }
 
   // recupération des plantes par especes
+
+  static async plantItem(id) {
+    const response = await axios.get(
+      `${BASE_URL}plants/${id}/?token=${API_KEY}`
+    );
+    console.log(response.data);
+    return response.data;
+  }
 }
