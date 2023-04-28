@@ -15,9 +15,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route path="/plante/:id" element={<PlantItem />} />
           <Route path="*" element={<PageNotFound />} />
         </Route>
+        <Route path="/plante/:id" element={<PlantItem />} />
         <Route path="/plante" element={<PlantBrowse />} />
       </Routes>
     </BrowserRouter>

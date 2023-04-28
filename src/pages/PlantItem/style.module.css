@@ -1,21 +1,47 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0D9CE;
+    height: 100vh;
+}
+
+.title{
+    position: absolute;
+    top: 240px ;
+}
+
 .container{
-color: white;
+display: flex;
+justify-content: space-around;
+padding-top: 100px;
+color: rgb(0, 0, 0);
+width: 60%;
+height: 40%;
+background-color: #ffffff;
+}
+
+.containerDescription{
+margin-right: 60px;
 }
 
 .species{
-
+margin-bottom: 30px;
 }
-
 .family{
-
+    margin-bottom: 30px;
 }
 
-.genius{
+.genus{
+    margin-bottom: 50px;
+}
+
+.containerImg{
+display: flex;
 
 }
 
 .img{
-    width: 400px;
-    height: 400px;
-    border-radius: 50px;
+    width: 250px;
+    height: 250px;
 }
