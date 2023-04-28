@@ -1,7 +1,7 @@
 import { PlantsAPI } from "../../api/plants";
 import { useEffect, useState } from "react";
 import { SpeciesList } from "../../components/SpeciesList/SpeciesList";
-
+import { Header } from "../../components/Header/Header";
 import s from "./style.module.css";
 
 export function PlantBrowse() {
@@ -18,9 +18,9 @@ export function PlantBrowse() {
   return (
     <>
       <div>
+        <Header />
         <SpeciesList species={species} />
       </div>
-      <div></div>
     </>
   );
 }

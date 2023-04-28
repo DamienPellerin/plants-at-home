@@ -3,12 +3,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #E0D9CE;
+    padding-top: 150px;
 }
 
 .container{
 cursor: pointer;
 width: 200px;
-margin: 20px;
+margin: 40px;
 }
 
 .title{
@@ -30,3 +31,4 @@ width: 200px;
 height: 250px;
 border-radius: 10px;
 }
+
