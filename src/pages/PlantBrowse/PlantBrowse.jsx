@@ -30,7 +30,7 @@ export function PlantBrowse() {
   }
 
   return (
-    <>
+    <div className={s.container}>
       <div>
         <Header />
         <SpeciesList species={species} />
@@ -42,7 +42,7 @@ export function PlantBrowse() {
         />
         <ButtonNextPage currentPage={currentPage} onClick={handleNextPage} />
       </div>
-    </>
+    </div>
   );
 }
 //<ButtonNextPage onClick={handleNextPage()} />

@@ -1,7 +1,7 @@
 import s from "./style.module.css";
 import Logo from "../../components/Logo/Logo";
-import logo from "/Users/damien/Desktop/plants-at-home/src/assets/img/logo.png";
-import background_img from "/Users/damien/Desktop/plants-at-home/src/assets/img/Capture d’écran 2023-04-27 à 21.38.46.png";
+import logo from "/Users/damien/Desktop/react/plants-at-home/src/assets/img/logo.png";
+import background_img from "/Users/damien/Desktop/react/plants-at-home/src/assets/img/presentation.png";
 import { ButtonVisit } from "components/ButtonVisit/ButtonVisit";
 
 export function Presentation() {

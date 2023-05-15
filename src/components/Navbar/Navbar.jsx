@@ -1,7 +1,7 @@
 import React from "react";
 import navbar from "./navbar.module.css";
 import Logo from "../Logo/Logo";
-import logo from "/Users/damien/Desktop/plants-at-home/src/assets/img/logo.png";
+import logo from "/Users/damien/Desktop/react/plants-at-home/src/assets/img/logo.png";
 import Menu from "../Menu/Menu";
 export function Navbar() {
   return (

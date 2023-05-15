@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .App {
     height: 100vh;
     background-image: url('');
     background-color: #E0D9CE;
+    font-family: 'Indie Flower', cursive;
 }
 
 

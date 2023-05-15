@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
 .btn{
     width: 200px;
     height: 40px;
@@ -7,4 +10,6 @@
     background-color: black;
     margin-bottom: 30px;
     border: #000000;
+    font-family: 'Indie Flower', cursive;
 }
+
